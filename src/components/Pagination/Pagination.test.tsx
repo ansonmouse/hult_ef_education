@@ -2,6 +2,22 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Pagination from './Pagination';
 
+jest.mock('react-i18next', () => ({
+  // mock react-i18next
+  useTranslation: () => {
+    return {
+      t: (str: string, options?: string | { defaultValue?: string }) => {
+        if (typeof options === 'string') {
+          return options;
+        } else if (!!options?.defaultValue) {
+          return options.defaultValue;
+        }
+        return str;
+      },
+    };
+  },
+}));
+
 describe(Pagination, () => {
   it('test if it can show the first page', () => {
     render(

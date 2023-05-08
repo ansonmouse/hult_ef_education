@@ -3,6 +3,22 @@ import { act, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import CheckboxFilter from './CheckboxFilter';
 
+jest.mock('react-i18next', () => ({
+  // mock react-i18next
+  useTranslation: () => {
+    return {
+      t: (str: string, options?: string | { defaultValue?: string }) => {
+        if (typeof options === 'string') {
+          return options;
+        } else if (!!options?.defaultValue) {
+          return options.defaultValue;
+        }
+        return str;
+      },
+    };
+  },
+}));
+
 const MockLabel = 'label1';
 const MockOptionTranslationPrefix = '';
 const MockOptions = ['option1', 'option2', 'option3'];

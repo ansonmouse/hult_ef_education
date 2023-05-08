@@ -2,6 +2,22 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import ProgramCard from './ProgramCard';
 
+jest.mock('react-i18next', () => ({
+  // mock react-i18next
+  useTranslation: () => {
+    return {
+      t: (str: string, options?: string | { defaultValue?: string }) => {
+        if (typeof options === 'string') {
+          return options;
+        } else if (!!options?.defaultValue) {
+          return options.defaultValue;
+        }
+        return str;
+      },
+    };
+  },
+}));
+
 const MockProgram = {
   id: 0,
   title: 'program A',
