@@ -1,0 +1,27 @@
+{
+  "bestseller": "Người bán hàng giỏi nhất",
+  "description": "Các chương trình chuyên sâu và hấp dẫn tập trung vào các kỹ năng và hành vi lãnh đạo quan trọng nhất đối với thế giới ngày nay. Chúng tôi cung cấp các tùy chọn chương trình trong khuôn viên trường, trực tuyến và kết hợp.",
+  "learningFormat": {
+    "blended": "Trộn lẫn",
+    "online": "Trực tuyến",
+    "residential": "khu dân cư",
+    "self-study": "Tự học",
+    "virtual": "Ảo"
+  },
+  "learningFormats": "định dạng học tập",
+  "listValue_one": "Hiển thị {{currentTotal}} trên {{count}} khóa học",
+  "listValue_other": "Hiển thị {{currentTotal}} trên {{count}} khóa học",
+  "sort": {
+    "alphabetically": "Các khóa học từ A đến Z",
+    "bestsellers": "Người bán hàng giỏi nhất",
+    "date": "Bắt đầu sớm"
+  },
+  "title": "Tất cả các chương trình",
+  "topic": {
+    "business-strategy": "Chiến lược kinh doanh",
+    "change-and-culture": "Thay đổi & Văn hóa",
+    "innovation-and-digital-information": "Đổi mới & Thông tin kỹ thuật số",
+    "personal-leadership-and-team-development": "Lãnh đạo cá nhân & Phát triển nhóm"
+  },
+  "topics": "chủ đề"
+}

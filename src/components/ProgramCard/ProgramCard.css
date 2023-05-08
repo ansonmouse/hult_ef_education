@@ -1,0 +1,95 @@
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 0.6rem;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+.program-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 26px;
+}
+@media (max-width: 599.98px) {
+  .program-card {
+    border-radius: 6px;
+  }
+}
+.program-card h2 {
+  line-height: 1.6rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  max-width: 450px;
+}
+.program-card hr {
+  border: 1px solid rgb(229, 229, 229);
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.program-card .title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  gap: 8px;
+}
+@media (max-width: 599.98px) {
+  .program-card .title-row {
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+}
+.program-card .detail-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+@media (min-width: 600px) and (max-width: 1199.98px) {
+  .program-card .detail-row {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+}
+@media (max-width: 599.98px) {
+  .program-card .detail-row {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+}
+@media (min-width: 1200px) {
+  .program-card .detail-row .learning-formats {
+    max-width: 400px;
+  }
+}
+.program-card .detail-row .topic {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=ProgramCard.css.map */

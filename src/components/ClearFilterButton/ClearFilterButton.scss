@@ -1,0 +1,17 @@
+@import "../../styles/Variables";
+
+.clear-filter-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 12px;
+  width: 100%;
+
+  &:hover {
+    background-color: darken($color_background, 10%);
+  }
+}

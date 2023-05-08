@@ -1,0 +1,30 @@
+@import "../../styles/Variables";
+@import "../../styles/Common";
+
+.dropdown-menu-button {
+  position: relative;
+
+  .toggle-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px;
+
+    &:hover {
+      background-color: darken($color_background, 10%);
+    }
+  }
+
+  dialog {
+    @include dialog_common;
+    width: 150px;
+
+    button {
+      text-align: left;
+    }
+  }
+}

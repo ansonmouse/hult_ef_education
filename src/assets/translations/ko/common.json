@@ -1,0 +1,18 @@
+{
+  "apply": "적용하다",
+  "clearFilter": "필터 지우기",
+  "filter": "필터",
+  "language": {
+    "en": "영어 (English)",
+    "hi": "힌디 어 (हिन्दी)",
+    "ja": "일본어 (日本語)",
+    "ko": "한국인",
+    "th": "태국어 (ภาษาไทย)",
+    "vi": "베트남어 (Tiếng Việt)",
+    "zh-HK": "중국인 (中文)"
+  },
+  "loading": "로드 중...",
+  "noData": "데이터 없음",
+  "pageValue": "페이지 {{page}}",
+  "sortBy": "정렬 기준"
+}

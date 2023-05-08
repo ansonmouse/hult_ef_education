@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.pagination .current-page-number {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media (min-width: 600px) and (max-width: 1199.98px) {
+  .pagination .current-page-number {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .pagination .current-page-number {
+    display: none;
+  }
+}
+.pagination .page-buttons-row {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+@media (max-width: 599.98px) {
+  .pagination .page-buttons-row {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Pagination.css.map */

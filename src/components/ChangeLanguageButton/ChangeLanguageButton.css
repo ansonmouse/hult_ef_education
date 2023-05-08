@@ -1,0 +1,36 @@
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 0.6rem;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+.change-language-dialog {
+  position: absolute;
+  left: -110px;
+}
+
+/*# sourceMappingURL=ChangeLanguageButton.css.map */

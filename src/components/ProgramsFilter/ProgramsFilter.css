@@ -1,0 +1,17 @@
+.programs-filter .title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 6px 12px;
+}
+@media (max-width: 599.98px) {
+  .programs-filter .title-row {
+    border-bottom: 1px solid rgb(193, 191, 189);
+  }
+}
+.programs-filter .title-row .title {
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=ProgramsFilter.css.map */

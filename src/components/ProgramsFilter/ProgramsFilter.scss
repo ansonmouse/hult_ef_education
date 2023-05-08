@@ -1,0 +1,19 @@
+@import "../../styles/Variables";
+
+.programs-filter {
+  .title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+
+    @include breakpoint(sm) {
+      border-bottom: 1px solid $color_border;
+    }
+
+    .title {
+      font-size: 0.8rem;
+    }
+  }
+}

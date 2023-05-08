@@ -1,0 +1,16 @@
+.clear-filter-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 12px;
+  width: 100%;
+}
+.clear-filter-button:hover {
+  background-color: #e4ddd2;
+}
+
+/*# sourceMappingURL=ClearFilterButton.css.map */

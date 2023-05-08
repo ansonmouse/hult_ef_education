@@ -1,0 +1,56 @@
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 0.6rem;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+.filter-button {
+  background-color: rgb(76, 124, 108);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+@media (min-width: 600px) and (max-width: 1199.98px) {
+  .filter-button {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .filter-button {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=FilterButton.css.map */

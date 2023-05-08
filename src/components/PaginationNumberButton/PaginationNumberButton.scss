@@ -1,0 +1,15 @@
+@import "../../styles/Variables";
+@import "../../styles/Common";
+
+.pagination-number-button {
+  @include pagination_button_common;
+  background-color: transparent;
+
+  &:hover {
+    background-color: darken($color_background, 10%);
+  }
+
+  &.selected {
+    background-color: white;
+  }
+}

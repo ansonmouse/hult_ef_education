@@ -1,0 +1,27 @@
+{
+  "bestseller": "सर्वश्रेष्ठ विक्रेता",
+  "description": "आज की दुनिया के लिए सबसे महत्वपूर्ण नेतृत्व कौशल और व्यवहार पर केंद्रित गहन और गहन कार्यक्रम। हम ऑन-कैंपस, ऑनलाइन और मिश्रित कार्यक्रम विकल्प प्रदान करते हैं।",
+  "learningFormat": {
+    "blended": "मिश्रित",
+    "online": "ऑनलाइन",
+    "residential": "आवासीय",
+    "self-study": "स्वयं अध्ययन",
+    "virtual": "आभासी"
+  },
+  "learningFormats": "सीखने के प्रारूप",
+  "listValue_one": "{{count}} में से {{currentTotal}} कोर्स दिखा रहा है",
+  "listValue_other": "{{count}} में से {{currentTotal}} कोर्स दिखा रहा है",
+  "sort": {
+    "alphabetically": "पाठ्यक्रम ए से जेड तक",
+    "bestsellers": "सर्वश्रेष्ठ विक्रेता",
+    "date": "जल्द ही शुरू"
+  },
+  "title": "सभी कार्यक्रम",
+  "topic": {
+    "business-strategy": "व्यापार रणनीति",
+    "change-and-culture": "परिवर्तन और संस्कृति",
+    "innovation-and-digital-information": "नवाचार और डिजिटल सूचना",
+    "personal-leadership-and-team-development": "व्यक्तिगत नेतृत्व और टीम विकास"
+  },
+  "topics": "विषय"
+}

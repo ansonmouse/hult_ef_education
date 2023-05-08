@@ -1,0 +1,27 @@
+{
+  "bestseller": "ベストセラー",
+  "description": "今日の世界で最も重要なリーダーシップのスキルと行動に焦点を当てた、詳細で没入型のプログラム。 キャンパス内、オンライン、混合プログラムのオプションを提供しています。",
+  "learningFormat": {
+    "blended": "ブレンド",
+    "online": "オンライン",
+    "residential": "居住の",
+    "self-study": "独学",
+    "virtual": "バーチャル"
+  },
+  "learningFormats": "学習形式",
+  "listValue_one": "{{count}} コース中 {{currentTotal}} コースを表示",
+  "listValue_other": "{{count}} コース中 {{currentTotal}} コースを表示",
+  "sort": {
+    "alphabetically": "コース A - Z",
+    "bestsellers": "ベストセラー",
+    "date": "間もなく開始"
+  },
+  "title": "すべてのプログラム",
+  "topic": {
+    "business-strategy": "事業戦略",
+    "change-and-culture": "変化と文化",
+    "innovation-and-digital-information": "イノベーションとデジタル情報",
+    "personal-leadership-and-team-development": "個人のリーダーシップとチーム開発"
+  },
+  "topics": "トピック"
+}

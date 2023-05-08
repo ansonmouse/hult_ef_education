@@ -1,0 +1,28 @@
+{
+  "bestseller": "暢銷課程",
+  "description": "深入和身臨其境的計劃側重於當今世界最關鍵的領導技能和行為。 我們提供校內、在線和混合課程選項。",
+  "learningFormat": {
+    "blended": "混合",
+    "online": "網上課程",
+    "residential": "在家課程",
+    "self-study": "自學",
+    "virtual": "虛擬"
+  },
+  "learningFormats": "學習形式",
+  "listValue_one": "顯示 {{currentTotal}} / {{count}} 個課程",
+  "listValue_other": "顯示 {{currentTotal}} / {{count}} 個課程",
+  "listValue_zero": "沒有課程",
+  "sort": {
+    "alphabetically": "課程 A to Z",
+    "bestsellers": "暢銷",
+    "date": "快會開始"
+  },
+  "title": "所有課程",
+  "topic": {
+    "business-strategy": "經營策略",
+    "change-and-culture": "變革與文化",
+    "innovation-and-digital-information": "創新與數碼信息",
+    "personal-leadership-and-team-development": "個人領導力和團隊發展"
+  },
+  "topics": "主題"
+}

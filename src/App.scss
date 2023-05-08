@@ -1,0 +1,12 @@
+@import "./styles/Variables";
+
+body, html {
+  background-color: $color_background;
+  font-family: $font_family;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

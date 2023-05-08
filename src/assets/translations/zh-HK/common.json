@@ -1,0 +1,18 @@
+{
+  "apply": "確認",
+  "clearFilter": "清除篩選",
+  "filter": "篩選",
+  "language": {
+    "en": "英語 (English)",
+    "hi": "印地語 (हिन्दी)",
+    "ja": "日語 (日本語)",
+    "ko": "韓語 (한국어)",
+    "th": "泰語 (ภาษาไทย)",
+    "vi": "越南語 (Tiếng Việt)",
+    "zh-HK": "中文"
+  },
+  "loading": "載入中...",
+  "noData": "沒有資料",
+  "pageValue": "第 {{page}} 頁",
+  "sortBy": "排序方式"
+}

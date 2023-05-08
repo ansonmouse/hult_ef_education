@@ -1,0 +1,41 @@
+@import "../../styles/Variables";
+
+.all-programs {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 60px;
+  }
+
+  aside {
+    grid-column: span 1 / span 1;
+
+    @include breakpoint(sm) {
+      display: none;
+    }
+  }
+
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    grid-column: span 2 / span 2;
+
+    @include breakpoint(sm) {
+      grid-column: span 3 / span 3;
+    }
+
+    .info-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 4px;
+      padding-bottom: 12px;
+      padding-top: 12px;
+
+      .count-label {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

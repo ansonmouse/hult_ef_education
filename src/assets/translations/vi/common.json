@@ -1,0 +1,18 @@
+{
+  "apply": "Áp dụng",
+  "clearFilter": "LÀm sạch bộ lọc",
+  "filter": "Lọc",
+  "language": {
+    "en": "Tiếng Anh (English)",
+    "hi": "tiếng Hin-ddi (हिन्दी)",
+    "ja": "tiếng Nhật (日本語)",
+    "ko": "Hàn Quốc (한국어)",
+    "th": "tiếng Thái (ภาษาไทย)",
+    "vi": "Tiếng Việt",
+    "zh-HK": "người Trung Quốc (中文)"
+  },
+  "loading": "Đang tải...",
+  "noData": "Không có dữ liệu",
+  "pageValue": "Trang {{page}}",
+  "sortBy": "Sắp xếp theo"
+}

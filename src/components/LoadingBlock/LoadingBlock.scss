@@ -1,0 +1,7 @@
+@import "../../styles/Variables";
+@import "../../styles/Common";
+
+.loading-block {
+  @include info_block_common
+}
+

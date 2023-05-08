@@ -1,0 +1,62 @@
+@import "../../styles/Variables";
+$padding_x: 8px;
+
+.checkbox-filter {
+  border-bottom: 1px solid $color_border;
+  margin-bottom: 22px;
+  padding-bottom: 12px;
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: $padding_x;
+    padding-right: $padding_x;
+
+    .option {
+      display: flex;
+      align-items: start;
+      gap: 10px;
+      padding-bottom: 8px;
+      padding-top: 6px;
+
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        accent-color: $color_primary;
+      }
+
+      span {
+        flex: 1;
+        font-size: 1rem;
+        padding-top: 3px;
+      }
+    }
+  }
+
+  .toggle-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+
+    &:hover {
+      background-color: darken($color_background, 10%);
+    }
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px $padding_x;
+    }
+
+    span {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+}

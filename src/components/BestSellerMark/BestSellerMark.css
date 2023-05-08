@@ -1,0 +1,12 @@
+.best-seller-mark {
+  color: rgb(204, 95, 73);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.best-seller-mark .label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=BestSellerMark.css.map */

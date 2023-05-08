@@ -1,0 +1,81 @@
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 0.6rem;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-size: 0.4rem;
+}
+
+.programs-mobile-filter {
+  border: none;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  width: 100vw;
+  height: 87vh;
+  margin-top: 10vh;
+}
+@media (min-width: 600px) and (max-width: 1199.98px) {
+  .programs-mobile-filter {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .programs-mobile-filter {
+    display: none;
+  }
+}
+.programs-mobile-filter > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.programs-mobile-filter .action-row {
+  border-top: 1px solid rgb(193, 191, 189);
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.programs-mobile-filter .apply-button {
+  background-color: rgb(76, 124, 108);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  padding: 14px;
+  width: 100px;
+}
+.programs-mobile-filter .close-button {
+  background-color: transparent;
+  border: none;
+  padding: 14px;
+}
+.programs-mobile-filter .filter {
+  flex: 1;
+}
+
+/*# sourceMappingURL=ProgramsMobileFilter.css.map */

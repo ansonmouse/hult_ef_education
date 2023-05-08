@@ -1,0 +1,50 @@
+@import "../../styles/Variables";
+@import "../../styles/Common";
+
+.programs-mobile-filter {
+  border: none;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  width: 100vw;
+  height: 87vh;
+  margin-top: 10vh;
+
+  @include breakpoint(md) {
+    display: none;
+  }
+
+  @include breakpoint(lg) {
+    display: none;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .action-row {
+    border-top: 1px solid $color_border;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
+
+  .apply-button {
+    @include button_common;
+    width: 100px;
+  }
+
+  .close-button {
+    background-color: transparent;
+    border: none;
+    padding: 14px;
+  }
+
+  .filter {
+    flex: 1;
+  }
+}

@@ -1,0 +1,97 @@
+@import "Variables";
+
+@mixin header_common {
+  color: $color_text_primary;
+}
+
+h1 {
+  @include header_common;
+  font-size: $font_size_h1;
+}
+
+h2 {
+  @include header_common;
+  font-size: $font_size_h2;
+}
+
+h3 {
+  @include header_common;
+  font-size: $font_size_h3;
+}
+
+h4 {
+  @include header_common;
+  font-size: $font_size_h4;
+}
+
+h5 {
+  @include header_common;
+  font-size: $font_size_h5;
+}
+
+h6 {
+  @include header_common;
+  font-size: $font_size_h6;
+}
+
+@mixin button_common {
+  background-color: $color_primary;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  padding: 14px;
+}
+
+@mixin dialog_common {
+  background-color: $color_card;
+  border: none;
+  border-radius: 6px;
+  box-shadow: $box_shadow;
+  margin-top: 8px;
+  padding: 12px 8px;
+  z-index: 10;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    padding: 8px;
+
+    &:hover, &.selected {
+      background-color: darken($color_background, 5%);
+    }
+  }
+}
+
+@mixin info_block_common {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  p {
+    color: $color_text_secondary;
+    text-align: center;
+  }
+}
+
+@mixin pagination_button_common {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}

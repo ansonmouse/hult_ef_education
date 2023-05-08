@@ -1,0 +1,20 @@
+@import "../../styles/Variables";
+@import "../../styles/Common";
+
+.filter-button {
+  @include button_common;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  @include breakpoint(md) {
+    display: none;
+  }
+
+  @include breakpoint(lg) {
+    display: none;
+  }
+}

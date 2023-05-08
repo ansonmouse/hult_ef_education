@@ -1,0 +1,37 @@
+.all-programs main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 60px;
+}
+.all-programs aside {
+  grid-column: span 1/span 1;
+}
+@media (max-width: 599.98px) {
+  .all-programs aside {
+    display: none;
+  }
+}
+.all-programs .results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  grid-column: span 2/span 2;
+}
+@media (max-width: 599.98px) {
+  .all-programs .results-container {
+    grid-column: span 3/span 3;
+  }
+}
+.all-programs .results-container .info-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.all-programs .results-container .info-row .count-label {
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=AllPrograms.css.map */

@@ -1,0 +1,21 @@
+.header {
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+@media (min-width: 600px) and (max-width: 1199.98px) {
+  .header {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 599.98px) {
+  .header {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+}
+.header .description {
+  color: rgb(126, 126, 126);
+  max-width: 580px;
+}
+
+/*# sourceMappingURL=Header.css.map */

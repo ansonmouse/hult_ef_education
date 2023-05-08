@@ -1,0 +1,41 @@
+// Color set
+$color_primary: rgb(76,124,108);
+$color_primary_contrast: lighten($color_primary, 80%);
+$color_secondary: rgb(204,95,73);
+$color_text_primary: rgb(0,0,0);
+$color_text_secondary: rgb(126,126,126);
+$color_border: rgb(193,191,189);
+$color_hr: rgb(229,229,229);
+$color_background: rgb(247,245,242);
+$color_card: white;
+
+// Shadow
+$box_shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+// Font
+$font_family: Arial, Helvetica, sans-serif;
+$font_size_h1: 1.5rem;
+$font_size_h2: 1.1rem;
+$font_size_h3: 0.8rem;
+$font_size_h4: 0.6rem;
+$font_size_h5: 0.4rem;
+$font_size_h6: 0.4rem;
+
+// Breakpoints
+$breakpoint_screen_lg: 1200px;
+$breakpoints: (
+        "sm": "(max-width: 599.98px)",
+        "md": "(min-width: 600px) and (max-width: 1199.98px)",
+        "lg": "(min-width: 1200px)",
+);
+
+@mixin breakpoint($value) {
+  $my-map: map-get($breakpoints, $value);
+  @if $my-map {
+    @media #{$my-map} {
+      @content;
+    }
+  } @else {
+    @error "The value #{$value} is not part of the default breakpoints set"
+  }
+}

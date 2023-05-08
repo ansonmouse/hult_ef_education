@@ -1,0 +1,27 @@
+{
+  "bestseller": "Best seller",
+  "description": "In-depth and immersive programs focused on the most critical leadership skills and behaviors for today's world. We provide on-campus, online and blended program options.",
+  "learningFormat": {
+    "blended": "Blended",
+    "online": "Online",
+    "residential": "Residential",
+    "self-study": "Self-study",
+    "virtual": "Virtual"
+  },
+  "learningFormats": "Learning Formats",
+  "listValue_one": "Showing {{currentTotal}} of {{count}} course",
+  "listValue_other": "Showing {{currentTotal}} of {{count}} courses",
+  "sort": {
+    "alphabetically": "Courses A to Z",
+    "bestsellers": "Best seller",
+    "date": "Starting soon"
+  },
+  "title": "All programs",
+  "topic": {
+    "business-strategy": "Business Strategy",
+    "change-and-culture": "Change & Culture",
+    "innovation-and-digital-information": "Innovation & Digital Information",
+    "personal-leadership-and-team-development": "Personal Leadership & Team Development"
+  },
+  "topics": "Topics"
+}

@@ -1,0 +1,53 @@
+.checkbox-filter {
+  border-bottom: 1px solid rgb(193, 191, 189);
+  margin-bottom: 22px;
+  padding-bottom: 12px;
+}
+.checkbox-filter .options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.checkbox-filter .options .option {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding-bottom: 8px;
+  padding-top: 6px;
+}
+.checkbox-filter .options .option input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(76, 124, 108);
+}
+.checkbox-filter .options .option span {
+  flex: 1;
+  font-size: 1rem;
+  padding-top: 3px;
+}
+.checkbox-filter .toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.checkbox-filter .toggle-button:hover {
+  background-color: #e4ddd2;
+}
+.checkbox-filter .toggle-button > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 8px;
+}
+.checkbox-filter .toggle-button span {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/*# sourceMappingURL=CheckboxFilter.css.map */

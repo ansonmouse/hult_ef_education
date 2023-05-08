@@ -1,0 +1,27 @@
+{
+  "bestseller": "ขายดี",
+  "description": "โปรแกรมเชิงลึกและเชิงลึกมุ่งเน้นไปที่ทักษะและพฤติกรรมความเป็นผู้นำที่สำคัญที่สุดสำหรับโลกปัจจุบัน เรามีตัวเลือกโปรแกรมในมหาวิทยาลัย ออนไลน์ และแบบผสมผสาน",
+  "learningFormat": {
+    "blended": "ผสม",
+    "online": "ออนไลน์",
+    "residential": "ที่อยู่อาศัย",
+    "self-study": "การศึกษาด้วยตนเอง",
+    "virtual": "เสมือน"
+  },
+  "learningFormats": "รูปแบบการเรียนรู้",
+  "listValue_one": "กำลังแสดง {{currentTotal}} จาก {{count}} หลักสูตร",
+  "listValue_other": "กำลังแสดง {{currentTotal}} จาก {{count}} หลักสูตร",
+  "sort": {
+    "alphabetically": "หลักสูตร A ถึง Z",
+    "bestsellers": "ขายดี",
+    "date": "เริ่มต้นเร็ว ๆ นี้"
+  },
+  "title": "ทุกโปรแกรม",
+  "topic": {
+    "business-strategy": "กลยุทธ์ทางธุรกิจ",
+    "change-and-culture": "การเปลี่ยนแปลงและวัฒนธรรม",
+    "innovation-and-digital-information": "นวัตกรรมและข้อมูลดิจิทัล",
+    "personal-leadership-and-team-development": "ความเป็นผู้นำส่วนบุคคลและการพัฒนาทีม"
+  },
+  "topics": "หัวข้อ"
+}

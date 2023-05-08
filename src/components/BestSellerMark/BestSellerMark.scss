@@ -1,0 +1,13 @@
+@import "../../styles/Variables";
+
+.best-seller-mark {
+  color: $color_secondary;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  .label {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+}

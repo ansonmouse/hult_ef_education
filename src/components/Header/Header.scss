@@ -1,0 +1,20 @@
+@import "../../styles/Variables";
+
+.header {
+  margin-bottom: 40px;
+  margin-top: 80px;
+
+  @include breakpoint(md) {
+    margin-top: 60px;
+  }
+
+  @include breakpoint(sm) {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+  .description {
+    color: $color_text_secondary;
+    max-width: 580px;
+  }
+}

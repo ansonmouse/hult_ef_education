@@ -1,0 +1,27 @@
+{
+  "bestseller": "베스트셀러",
+  "description": "오늘날 세계에서 가장 중요한 리더십 기술과 행동에 초점을 맞춘 심층적이고 몰입적인 프로그램. 캠퍼스 내, 온라인 및 혼합 프로그램 옵션을 제공합니다.",
+  "learningFormat": {
+    "blended": "블렌딩 식",
+    "online": "온라인",
+    "residential": "주거",
+    "self-study": "독학",
+    "virtual": "가상"
+  },
+  "learningFormats": "학습 형식",
+  "listValue_one": "{{count}}개 코스 중 {{currentTotal}}개 표시 중",
+  "listValue_other": "{{count}}개 코스 중 {{currentTotal}}개 표시 중",
+  "sort": {
+    "alphabetically": "코스 A~Z",
+    "bestsellers": "베스트셀러",
+    "date": "곧 시작"
+  },
+  "title": "모든 프로그램",
+  "topic": {
+    "business-strategy": "사업 전략",
+    "change-and-culture": "변화와 문화",
+    "innovation-and-digital-information": "혁신 및 디지털 정보",
+    "personal-leadership-and-team-development": "개인 리더십 및 팀 개발"
+  },
+  "topics": "주제"
+}

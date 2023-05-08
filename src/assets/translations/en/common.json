@@ -1,0 +1,18 @@
+{
+  "apply": "Apply",
+  "clearFilter": "Clear Filter",
+  "filter": "Filter",
+  "language": {
+    "en": "English",
+    "hi": "Hindi (हिन्दी)",
+    "ja": "Japanese (日本語)",
+    "ko": "Korean (한국어)",
+    "th": "Thai (ภาษาไทย)",
+    "vi": "Vietnamese (Tiếng Việt)",
+    "zh-HK": "Chinese (中文)"
+  },
+  "loading": "Loading...",
+  "noData": "No Data",
+  "pageValue": "Page {{page}}",
+  "sortBy": "Sort by"
+}

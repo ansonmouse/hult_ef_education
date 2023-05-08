@@ -1,0 +1,21 @@
+@import "../../styles/Variables";
+@import "../../styles/Common";
+
+.pagination-edge-button {
+  @include pagination_button_common;
+  box-shadow: $box_shadow;
+
+  &.hide-on-desktop {
+    @include breakpoint(md) {
+      display: none;
+    }
+
+    @include breakpoint(lg) {
+      display: none;
+    }
+  }
+
+  &.narrow {
+    width: 35px;
+  }
+}

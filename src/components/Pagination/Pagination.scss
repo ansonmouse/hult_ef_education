@@ -1,0 +1,38 @@
+@import "../../styles/Variables";
+
+@mixin middle_section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  .current-page-number {
+    @include middle_section;
+    text-align: center;
+
+    @include breakpoint(md) {
+      display: none;
+    }
+
+    @include breakpoint(lg) {
+      display: none;
+    }
+  }
+
+  .page-buttons-row {
+    @include middle_section;
+    gap: 10px;
+
+    @include breakpoint(sm) {
+      display: none;
+    }
+  }
+}
