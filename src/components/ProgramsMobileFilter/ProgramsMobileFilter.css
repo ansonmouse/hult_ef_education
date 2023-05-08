@@ -34,7 +34,7 @@ h6 {
   border-top-right-radius: 14px;
   width: 100vw;
   height: 87vh;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 @media (min-width: 600px) and (max-width: 1199.98px) {
   .programs-mobile-filter {
@@ -71,6 +71,7 @@ h6 {
 }
 .programs-mobile-filter .close-button {
   background-color: transparent;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 14px;
 }

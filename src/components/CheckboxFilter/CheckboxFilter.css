@@ -30,6 +30,7 @@
 .checkbox-filter .toggle-button {
   background-color: transparent;
   border: none;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   border-radius: 6px;
   margin-bottom: 10px;

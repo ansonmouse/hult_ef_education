@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["ClearFilterButton.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE","file":"ClearFilterButton.css"}
+{"version":3,"sourceRoot":"","sources":["ClearFilterButton.scss","../../styles/Variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA,OCFmB;EDGnB;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE","file":"ClearFilterButton.css"}
