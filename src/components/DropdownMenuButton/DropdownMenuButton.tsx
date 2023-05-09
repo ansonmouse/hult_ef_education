@@ -1,4 +1,4 @@
-import React, { FC, HTMLAttributes, ReactNode, useRef } from 'react';
+import React, { FC, HTMLAttributes, ReactNode, useEffect, useRef } from 'react';
 import './DropdownMenuButton.css';
 
 const DropdownMenuButton: FC<DropdownMenuButtonProps> = ({
@@ -9,8 +9,18 @@ const DropdownMenuButton: FC<DropdownMenuButtonProps> = ({
   onChange,
   onToggleOpen,
 }) => {
+  const ButtonRef = useRef<HTMLButtonElement>(null);
+  const ContainerRef = useRef<HTMLDivElement>(null);
   const DialogRef = useRef<HTMLDialogElement>(null);
   const OpenRef = useRef(false);
+  useEffect(() => {
+    window.addEventListener('click', (event) => {
+      // @ts-ignore
+      if (!ContainerRef.current?.contains(event.target) && OpenRef.current) {
+        handleToggleOpen();
+      }
+    });
+  }, []);
 
   const handleSelect = (value: string) => {
     onChange(value);
@@ -34,8 +44,9 @@ const DropdownMenuButton: FC<DropdownMenuButtonProps> = ({
   };
 
   return (
-    <div className="dropdown-menu-button">
+    <div ref={ContainerRef} className="dropdown-menu-button">
       <button
+        ref={ButtonRef}
         className="toggle-button"
         data-testid="toggle-button"
         onClick={handleToggleOpen}
