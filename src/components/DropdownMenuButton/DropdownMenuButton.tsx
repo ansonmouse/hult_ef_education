@@ -14,12 +14,17 @@ const DropdownMenuButton: FC<DropdownMenuButtonProps> = ({
   const DialogRef = useRef<HTMLDialogElement>(null);
   const OpenRef = useRef(false);
   useEffect(() => {
-    window.addEventListener('click', (event) => {
+    const handleClick = (event: MouseEvent) => {
       // @ts-ignore
       if (!ContainerRef.current?.contains(event.target) && OpenRef.current) {
         handleToggleOpen();
       }
-    });
+    };
+    window.addEventListener('click', handleClick);
+
+    return () => {
+      window.removeEventListener('click', handleClick);
+    };
   }, []);
 
   const handleSelect = (value: string) => {
